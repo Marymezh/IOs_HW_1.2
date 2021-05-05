@@ -15,6 +15,8 @@
 		CE2FCF8E264237C900FC848C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2FCF8C264237C900FC848C /* LaunchScreen.storyboard */; };
 		CE2FCF9B26423BE200FC848C /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2FCF9A26423BE200FC848C /* ProfileView.xib */; };
 		CE2FCF9E26423E3000FC848C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2FCF9D26423E3000FC848C /* ProfileView.swift */; };
+		CE2FCFA126423FE000FC848C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2FCFA026423FE000FC848C /* Profile.storyboard */; };
+		CE2FCFA42642403600FC848C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2FCFA32642403600FC848C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CE2FCF8F264237C900FC848C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE2FCF9A26423BE200FC848C /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		CE2FCF9D26423E3000FC848C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE2FCFA026423FE000FC848C /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CE2FCFA32642403600FC848C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				CE2FCF81264237C700FC848C /* AppDelegate.swift */,
 				CE2FCF83264237C700FC848C /* SceneDelegate.swift */,
 				CE2FCF85264237C700FC848C /* ViewController.swift */,
-				CE2FCF9D26423E3000FC848C /* ProfileView.swift */,
 				CE2FCF9A26423BE200FC848C /* ProfileView.xib */,
+				CE2FCF9D26423E3000FC848C /* ProfileView.swift */,
 				CE2FCF87264237C700FC848C /* Main.storyboard */,
+				CE2FCFA026423FE000FC848C /* Profile.storyboard */,
+				CE2FCFA32642403600FC848C /* ProfileViewController.swift */,
 				CE2FCF8A264237C900FC848C /* Assets.xcassets */,
 				CE2FCF8C264237C900FC848C /* LaunchScreen.storyboard */,
 				CE2FCF8F264237C900FC848C /* Info.plist */,
@@ -132,6 +138,7 @@
 			files = (
 				CE2FCF9B26423BE200FC848C /* ProfileView.xib in Resources */,
 				CE2FCF8E264237C900FC848C /* LaunchScreen.storyboard in Resources */,
+				CE2FCFA126423FE000FC848C /* Profile.storyboard in Resources */,
 				CE2FCF8B264237C900FC848C /* Assets.xcassets in Resources */,
 				CE2FCF89264237C700FC848C /* Main.storyboard in Resources */,
 			);
@@ -146,6 +153,7 @@
 			files = (
 				CE2FCF9E26423E3000FC848C /* ProfileView.swift in Sources */,
 				CE2FCF86264237C700FC848C /* ViewController.swift in Sources */,
+				CE2FCFA42642403600FC848C /* ProfileViewController.swift in Sources */,
 				CE2FCF82264237C700FC848C /* AppDelegate.swift in Sources */,
 				CE2FCF84264237C700FC848C /* SceneDelegate.swift in Sources */,
 			);
